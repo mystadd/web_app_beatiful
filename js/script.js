@@ -13,11 +13,17 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
                     <b>Дата и время:</b> ${selectedDateTime}
                     <b>Контактные данные:</b>
                     <b>Имя:</b> ${name}
-                    <b>Телефон:</b> ${telephone}
-                    <b>E-mail:</b> ${email}
-                    <b>Комментарий:</b> ${message}`;
+                    <b>Телефон:</b> ${telephone}`;
 
-  fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + `&text=${encodeURIComponent(FullMessage)}&parse_mode=HTML`)
+                    if (email) {
+                      FullMessage += `<b>E-mail:</b> ${email}`;
+                    }
+                  
+                    if (message) {
+                      FullMessage += `<b>Комментарий:</b> ${message}`;
+                    }
+
+  fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + '&text=' + encodeURIComponent(FullMessage) + '&parse_mode=HTML')
   .then(response => console.log('Уведомление успешно отправлено в Telegram', response))
   .catch(error => console.error('Ошибка при отправке уведомления в Telegram:', error));
 }
