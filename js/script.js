@@ -20,7 +20,7 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
                     }
                   
                     if (message) {
-                      FullMessage += `<b>Комментарий:</b> ${message}`;
+                      FullMessage += `\n\n<b>Комментарий:</b> ${message}`;
                     }
 
   fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + '&text=' + encodeURIComponent(FullMessage) + '&parse_mode=HTML')
@@ -125,7 +125,6 @@ $(document).ready(function() {
 
   $('.btn-signup').click(function() {
     var isValid = true;
-
 
     $('.data-contacts-form input[required]').each(function() {
         if (!$(this).val()) {
