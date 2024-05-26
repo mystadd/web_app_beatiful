@@ -9,8 +9,8 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
 
   var FullMessage = `<b>Новая запись на прием!</b>\n`;
   FullMessage += `<b>Выбранный специалист:</b> ${$.trim(selectedSpecialist)}\n`;
-  FullMessage += `<b>Выбранные услуги:</b> ${selectedServices}\n`;
-  FullMessage += `<b>Дата и время:</b> ${selectedDateTime}\n`;
+  FullMessage += `<b>Выбранные услуги:</b> ${$.trim(selectedServices)}\n`;
+  FullMessage += `<b>Дата и время:</b> ${selectedDateTime}\n\n`;
   FullMessage += `<b>Контактные данные:</b>\n`;
   FullMessage += `<b>Имя:</b> ${name}\n`;
   FullMessage += `<b>Телефон:</b> ${telephone}\n`;
