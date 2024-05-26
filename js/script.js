@@ -23,8 +23,6 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
                       FullMessage += `<b>Комментарий:</b> ${message}`;
                     }
 
-  console.log(FullMessage);
-
   fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + '&text=' + encodeURIComponent(FullMessage) + '&parse_mode=HTML')
   .then(response => console.log('Уведомление успешно отправлено в Telegram', response))
   .catch(error => console.error('Ошибка при отправке уведомления в Telegram:', error));
@@ -149,7 +147,8 @@ $(document).ready(function() {
     });
     var selectedDateTime = selectedDate + ' ' + selectedTime;
 
-    sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(', ').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
+    
+    sendTelegramMessage(selectedSpecialist, selectedServices.join(', '), selectedDateTime);
     
     $('.end_form').show();
     $('#popupOverlay').css({"display": "none"});
