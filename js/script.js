@@ -7,21 +7,21 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
   var email = $('#email').val();
   var message = $('#message').val();
 
-  var FullMessage = `<b>Новая запись на прием!</b>
-                    <b>Выбранный специалист:</b> ${$.trim(selectedSpecialist)}
-                    <b>Выбранные услуги:</b> ${selectedServices}
-                    <b>Дата и время:</b> ${selectedDateTime}
-                    <b>Контактные данные:</b>
-                    <b>Имя:</b> ${name}
-                    <b>Телефон:</b> ${telephone}`;
+  var FullMessage = `<b>Новая запись на прием!</b>\n`;
+  FullMessage += `<b>Выбранный специалист:</b> ${$.trim(selectedSpecialist)}\n`;
+  FullMessage += `<b>Выбранные услуги:</b> ${selectedServices}\n`;
+  FullMessage += `<b>Дата и время:</b> ${selectedDateTime}\n`;
+  FullMessage += `<b>Контактные данные:</b>\n`;
+  FullMessage += `<b>Имя:</b> ${name}\n`;
+  FullMessage += `<b>Телефон:</b> ${telephone}\n`;
 
-                    if (email) {
-                      FullMessage += `<b>E-mail:</b> ${email}`;
-                    }
+  if (email) {
+    FullMessage += `<b>E-mail:</b> ${email}\n`;
+  }
                   
-                    if (message) {
-                      FullMessage += `<b>Комментарий:</b> ${message}`;
-                    }
+  if (message) {
+    FullMessage += `<b>Комментарий:</b> ${message}`;
+  }
 
   fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + '&text=' + encodeURIComponent(FullMessage) + '&parse_mode=HTML')
   .then(response => console.log('Уведомление успешно отправлено в Telegram', response))
@@ -147,8 +147,8 @@ $(document).ready(function() {
     });
     var selectedDateTime = selectedDate + ' ' + selectedTime;
 
-    
     sendTelegramMessage(selectedSpecialist, selectedServices.join(', '), selectedDateTime);
+    //sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(', ').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
     
     $('.end_form').show();
     $('#popupOverlay').css({"display": "none"});
