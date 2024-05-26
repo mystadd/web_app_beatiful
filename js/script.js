@@ -23,6 +23,8 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
                       FullMessage += `<b>Комментарий:</b> ${message}`;
                     }
 
+  console.log(FullMessage);
+
   fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + '&text=' + encodeURIComponent(FullMessage) + '&parse_mode=HTML')
   .then(response => console.log('Уведомление успешно отправлено в Telegram', response))
   .catch(error => console.error('Ошибка при отправке уведомления в Telegram:', error));
