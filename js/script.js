@@ -147,7 +147,7 @@ $(document).ready(function() {
     });
     var selectedDateTime = selectedDate + ' ' + selectedTime;
 
-    sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(',').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
+    sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(', ').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
     
     $('.end_form').show();
     $('#popupOverlay').css({"display": "none"});
