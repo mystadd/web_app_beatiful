@@ -1,1285 +1,1464 @@
 /* -----FONTS----- */
 
 .roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
 }
-  
+
 .roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
 }
-  
+
 .roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
 }
-  
+
 .roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
 }
-  
+
 .roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
 }
-  
+
 .roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
 }
-  
+
 .roboto-thin-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: italic;
 }
-  
+
 .roboto-light-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: italic;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: italic;
 }
-  
+
 .roboto-regular-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: italic;
 }
-  
+
 .roboto-medium-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: italic;
 }
-  
+
 .roboto-bold-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: italic;
 }
-  
+
 .roboto-black-italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: italic;
 }
-  
 
 body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.4;
-  background: #F4F0EF;
+   font-family: "Roboto", sans-serif;
+   margin: 0;
+   padding: 0;
+   line-height: 1.4;
+   background: #f4f0ef;
 }
-
 
 /* -----HEADER----- */
 
 .nr-content {
-  min-height: 911px;
+   min-height: 911px;
 }
 
 .nr-header {
-  height: 52px;
-  text-align: left;
-  position: relative;
-  background: #847C79;
-  top: 0;
-  width: 100%;
+   height: 52px;
+   text-align: left;
+   position: relative;
+   background: #847c79;
+   top: 0;
+   width: 100%;
 }
 
 .nr-title-block {
-  margin:  auto;
-  max-width: 940px;
-  padding-top: 5px;
-  padding-left: 15px;
+   margin: auto;
+   max-width: 940px;
+   padding-top: 5px;
+   padding-left: 15px;
 }
 
-.nr-title{
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: 600;
-  font-style: normal;
-  font-family: "Roboto", sans-serif;
+.nr-title {
+   font-size: 16px;
+   color: #ffffff;
+   font-weight: 600;
+   font-style: normal;
+   font-family: "Roboto", sans-serif;
 }
 
 .nr-subtitle {
-  font-size: 12px;
-  color: #ffffff;
-  overflow: hidden;
-  opacity: 0.6;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Roboto", sans-serif;
+   font-size: 12px;
+   color: #ffffff;
+   overflow: hidden;
+   opacity: 0.6;
+   font-weight: 400;
+   font-style: normal;
+   font-family: "Roboto", sans-serif;
 }
 
 .nr-adress-block span {
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   color: #ffffff;
+   font-weight: 400;
+   font-style: normal;
+   font-family: "Roboto", sans-serif;
 }
-
 
 /* -----CONTENT----- */
 
 .nr-main-wrapper {
-  position: relative;
-  margin:  auto;
-  max-width: 940px;
-  z-index: 1000;
+   position: relative;
+   margin: auto;
+   max-width: 940px;
+   z-index: 1000;
 }
 
 .profile-wrapper-index {
-  margin-top: 35px;
-  gap: 20px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+   margin-top: 35px;
+   gap: 20px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   width: 100%;
 }
-
 
 /* ГЛАВНАЯ КАРТОЧКА */
 
 .cards-container-main {
-  max-width: 940px;
-  display: flex;
+   max-width: 940px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
 }
 
 .card-about {
-  text-align: left;
-  width: 340px;
-  height: 600px;
-  background-color: #ffffff;
-  overflow: hidden;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+   text-align: left;
+   width: 340px;
+   height: 600px;
+   background-color: #ffffff;
+   overflow: hidden;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
 }
 
 .about-text {
-  padding: 50px;
+   padding: 50px;
 }
 
 .wr-title h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+   color: #40382e;
 }
 
 .wr-subtitle {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 15px;
-  padding-top: 30px;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 15px;
+   padding-top: 30px;
+   color: #40382e;
 }
 
 .card-gallery {
-  position: relative;
+   position: relative;
 }
 
 .card-gallery img {
-  padding: 0;
-  width: 600px;
-  background-color: #ffffff;
-  overflow: hidden;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+   padding: 0;
+   width: 600px;
+   background-color: #ffffff;
+   overflow: hidden;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
 }
-
 
 /* КНОПКА "ЗАПИСАТЬСЯ" */
 
 .action {
-  position: absolute;
-  transform: translate(20%, -180%);
+   position: absolute;
+   -webkit-transform: translate(20%, -180%);
+   -ms-transform: translate(20%, -180%);
+   transform: translate(20%, -180%);
 }
 
 .btn-open-popup {
-  display: flex;
-  text-align: center;
-  width: 190px;
-  height: 55px;
-  color: #000000;
-  border-radius: 12px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  background: #DBCEC8;
-  padding: 20px;
-  cursor: pointer;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease; 
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   text-align: center;
+   width: 190px;
+   height: 55px;
+   color: #000000;
+   border-radius: 12px;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   background: #dbcec8;
+   padding: 20px;
+   cursor: pointer;
+   border: none;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   text-decoration: none;
+   -webkit-transition: background-color 0.3s ease;
+   -o-transition: background-color 0.3s ease;
+   transition: background-color 0.3s ease;
 }
 
-.btn-open-popup:hover { 
-  background-color: #faefe9;
-} 
+.btn-open-popup:hover {
+   background-color: #faefe9;
+}
 
 /* ФОРМА ДЛЯ ЗАПИСИ */
 
 /* ГЛАВНАЯ ФОРМА */
 .overlay-container {
-  display: none;
-  position: fixed;
-  z-index: 1500;
-  top: 50%; 
-  left: 50%;
-  justify-content: center;
-  align-items: center;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0; 
-  transition: opacity 0.3s ease;
+   display: none;
+   position: fixed;
+   z-index: 1500;
+   top: 50%;
+   left: 50%;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   opacity: 0;
+   -webkit-transition: opacity 0.3s ease;
+   -o-transition: opacity 0.3s ease;
+   transition: opacity 0.3s ease;
 }
 
 .popup-box {
-  background: #ffffff;
-  padding: 24px;
-  border-radius: 12px; 
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
-  width: 520px;
-  height: 770px;
-  max-height: 770px;
-  text-align: center; 
-  opacity: 0;
-  transform: scale(0.8); 
-  animation: fadeInUp 0.5s ease-out forwards;
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   width: 520px;
+   height: 770px;
+   max-height: 770px;
+   text-align: center;
+   opacity: 0;
+   -webkit-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+   -webkit-animation: fadeInUp 0.5s ease-out forwards;
+   animation: fadeInUp 0.5s ease-out forwards;
 }
 
 .block-container {
-  transform: scale(0.8); 
-  animation: fadeInUp 0.5s ease-out forwards;
+   -webkit-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+   -webkit-animation: fadeInUp 0.5s ease-out forwards;
+   animation: fadeInUp 0.5s ease-out forwards;
 }
 
 .form-title {
-  margin-top: 0px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 28px;
-  text-align: center;
-  padding-bottom: 20px;
-  color: #40382E;
+   margin-top: 0px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 28px;
+   text-align: center;
+   padding-bottom: 20px;
+   color: #40382e;
 }
 
 .btn-close-popup img {
-  float: right;
-  position: relative;
-  left: 20px;
-  top: -20px;
-  width: 50px;
-  cursor: pointer;
+   float: right;
+   position: relative;
+   left: 20px;
+   top: -20px;
+   width: 50px;
+   cursor: pointer;
 }
 
 .form-container {
-  width: 500px;
-  display: flex; 
-  flex-direction: column;
-  padding: 10px;
+   width: 500px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding: 10px;
 }
 
 .nr-option {
-  display: inline-flex;
-  padding: 10px;
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   padding: 10px;
 }
 
 .nr-option-image img {
-  width: 40px;
-  cursor: pointer;
+   width: 40px;
+   cursor: pointer;
 }
 
 .right-arrow-image {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  cursor: pointer;
-  align-items: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-item-align: center;
+   align-self: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   cursor: pointer;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
 }
 
 .right-arrow-image img {
-  width: 20px;
-  height: 30px;
+   width: 20px;
+   height: 30px;
 }
 
 .form-label {
-  font-size: 16px; 
-  color: #40382E; 
-  text-align: left;
-  padding-top: 10px;
-  padding-left: 10px;
-  cursor: pointer;
-  flex: 1 1 0;
+   font-size: 16px;
+   color: #40382e;
+   text-align: left;
+   padding-top: 10px;
+   padding-left: 10px;
+   cursor: pointer;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 1 0px;
+   flex: 1 1 0;
 }
 
-@keyframes fadeInUp { 
-  from { 
-    opacity: 0; 
-    transform: translateY(20px); 
-  } 
+@-webkit-keyframes fadeInUp {
+   from {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+   }
 
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
-  } 
-} 
+   to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+   }
+}
 
-/* Анимация открытия формы */ 
-.overlay-container.show { 
-  display: flex; 
-  opacity: 1; 
+@keyframes fadeInUp {
+   from {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+   }
+
+   to {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+   }
+}
+
+/* Анимация открытия формы */
+.overlay-container.show {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   opacity: 1;
 }
 
 .btn-continue1,
 .btn-continue2,
 .btn-continue3,
 .btn-signup {
-  display: flex;
-  text-align: center;
-  width: 480px;
-  height: 40px;
-  color: #ffffff;
-  border-radius: 12px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  background: #000000;
-  padding: 20px;
-  cursor: pointer;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-top: 20px;
-  margin-left: 5px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   text-align: center;
+   width: 480px;
+   height: 40px;
+   color: #ffffff;
+   border-radius: 12px;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   background: #000000;
+   padding: 20px;
+   cursor: pointer;
+   border: none;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   text-decoration: none;
+   -webkit-transition: background-color 0.3s ease;
+   -o-transition: background-color 0.3s ease;
+   transition: background-color 0.3s ease;
+   margin-top: 20px;
+   margin-left: 5px;
 }
 
 .btn-continue1:hover,
 .btn-continue2:hover,
 .btn-continue3:hover,
 .btn-signup:hover {
-  opacity: 0.9;
-} 
-
+   opacity: 0.9;
+}
 
 /* ФОРМА СПЕЦИАЛИСТОВ */
 
 .left-arrow-image {
-  display: flex;
-  align-self: flex-start;
-  justify-content: left;
-  cursor: pointer;
-  align-items: left;
-  position: absolute;
-  top: 65px;
-  left: 25px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-item-align: start;
+   align-self: flex-start;
+   -webkit-box-pack: left;
+   -ms-flex-pack: left;
+   justify-content: left;
+   cursor: pointer;
+   -webkit-box-align: left;
+   -ms-flex-align: left;
+   align-items: left;
+   position: absolute;
+   top: 65px;
+   left: 25px;
 }
 
 .left-arrow-image img {
-  width: 20px;
-  height: 30px;
+   width: 20px;
+   height: 30px;
 }
 
 .specialist-details {
-  border: 1px solid #E1EAF5;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  width: 430px;
-  height: 80px;
-  padding: 20px;
-  cursor: pointer;
-  position: relative;
-  margin-left: 15px;
+   border: 1px solid #e1eaf5;
+   border-radius: 10px;
+   margin-bottom: 15px;
+   width: 430px;
+   height: 80px;
+   padding: 20px;
+   cursor: pointer;
+   position: relative;
+   margin-left: 15px;
 }
 
 .nr-marker::before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  left: 20px;
-  margin-top: 30px;
-  border: 1px solid #cccccc;
-  border-radius: 9px;
-  background-color: #ffffff;
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 17px;
+   height: 17px;
+   left: 20px;
+   margin-top: 30px;
+   border: 1px solid #cccccc;
+   border-radius: 9px;
+   background-color: #ffffff;
 }
 
 .specialist-details.active .nr-marker::before {
-  background: #cccccc !important;
+   background: #cccccc !important;
 }
 
-.specialist-details img{
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 55px;
-  border-radius: 50%;
-  overflow: hidden;
-  object-fit: cover;
+.specialist-details img {
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   left: 55px;
+   border-radius: 50%;
+   overflow: hidden;
+   -o-object-fit: cover;
+   object-fit: cover;
 }
 
 .sp-info {
-  position: relative;
-  padding-left: 130px;
-  text-align: left;
-  padding-top: 20px;
+   position: relative;
+   padding-left: 130px;
+   text-align: left;
+   padding-top: 20px;
 }
-
 
 /* ФОРМА ВЫБОРА ДАТЫ И ВРЕМЕНИ */
 .datetime-container {
-  width: 500px;
-  height: 720px;
-  overflow-y: auto;
+   width: 500px;
+   height: 720px;
+   overflow-y: auto;
 }
 
 .datetime-container::-webkit-scrollbar {
-  width: 20px;
+   width: 20px;
 }
 
 .datetime-container::-webkit-scrollbar-thumb {
-  background: #F4F0EF;
-  border-radius: 20px;
-  border-left: 6px solid #ffffff;
-  border-right: 6px solid #ffffff;
-  border-top: 6px solid #ffffff;
-  border-bottom: 6px solid #ffffff;
+   background: #f4f0ef;
+   border-radius: 20px;
+   border-left: 6px solid #ffffff;
+   border-right: 6px solid #ffffff;
+   border-top: 6px solid #ffffff;
+   border-bottom: 6px solid #ffffff;
 }
 
 .datetime-container::-webkit-scrollbar-track {
-  background-color: #ffffff;
-  border-radius: 20px;
+   background-color: #ffffff;
+   border-radius: 20px;
 }
 
 /* Выбор даты */
 .input-date {
-  width: 420px;
-  height: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  padding: 15px 20px 15px 20px;
-  border: 2px solid #E0E3EB;
-  border-radius: 30px;
-  outline: none;
-  cursor: pointer;
-  transition: border-color 0.3s ease;
+   width: 420px;
+   height: 20px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   padding: 15px 20px 15px 20px;
+   border: 2px solid #e0e3eb;
+   border-radius: 30px;
+   outline: none;
+   cursor: pointer;
+   -webkit-transition: border-color 0.3s ease;
+   -o-transition: border-color 0.3s ease;
+   transition: border-color 0.3s ease;
 }
 
 .input-date:hover {
-  border: 2px solid #9AA3B1;
+   border: 2px solid #9aa3b1;
 }
 
 input[type="date"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 /* Стилизуем календарную иконку */
 input[type="date"]::-webkit-calendar-picker-indicator {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 /* Выбор времени */
 .time-block {
-  padding-top: 30px;
+   padding-top: 30px;
 }
 
 .time-details {
-  padding-bottom: 5px;
-  padding-left: 15px;
+   padding-bottom: 5px;
+   padding-left: 15px;
 }
 
 .day-block {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  padding-left: 5px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: row;
+   flex-direction: row;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   padding-left: 5px;
 }
 
 .time-select-container {
-  display: flex;
-  flex-wrap: wrap;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
 }
 
 .form-select-time {
-  margin: 4px;
-  width: 134px;
-  justify-content: center;
-  display: flex;
-  padding: 7px;
-  border-radius: 100px;
-  cursor: pointer;
-  text-align: center;
-  background-color: #EAEEF4;
+   margin: 4px;
+   width: 134px;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   padding: 7px;
+   border-radius: 100px;
+   cursor: pointer;
+   text-align: center;
+   background-color: #eaeef4;
 }
 
 .form-select-time span {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 20px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 20px;
 }
 
 .form-select-time.active {
-  background: #000000;
-  color: #ffffff;
+   background: #000000;
+   color: #ffffff;
 }
-
 
 /* ФОРМА ВЫБОРА УСЛУГ */
 .list_service_block {
-  width: 500px;
-  height: 550px;
-  overflow-y: auto;
+   width: 500px;
+   height: 550px;
+   overflow-y: auto;
 }
 
 .list_service_block::-webkit-scrollbar {
-  width: 20px;
+   width: 20px;
 }
 
 .list_service_block::-webkit-scrollbar-thumb {
-  background: #F4F0EF;
-  border-radius: 20px;
-  border-left: 6px solid #ffffff;
-  border-right: 6px solid #ffffff;
-  border-top: 6px solid #ffffff;
-  border-bottom: 6px solid #ffffff;
+   background: #f4f0ef;
+   border-radius: 20px;
+   border-left: 6px solid #ffffff;
+   border-right: 6px solid #ffffff;
+   border-top: 6px solid #ffffff;
+   border-bottom: 6px solid #ffffff;
 }
 
 .list_service_block::-webkit-scrollbar-track {
-  background-color: #ffffff;
-  border-radius: 20px;
+   background-color: #ffffff;
+   border-radius: 20px;
 }
 
 .service-option,
 .list-service-option {
-  margin-bottom: 20px;
-  cursor: pointer;
-  text-align: left;
-  display: inline-flex;
-  padding: 10px 10px 10px 0px;
-  width: 455px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   text-align: left;
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   padding: 10px 10px 10px 0px;
+   width: 455px;
 }
 
 .img-service img {
-  width: 100px;
-  height: 80px;
-  object-fit: cover;
-  float: left;
-  border-radius: 12px;
+   width: 100px;
+   height: 80px;
+   -o-object-fit: cover;
+   object-fit: cover;
+   float: left;
+   border-radius: 12px;
 }
 
 .text-service-info,
 .sp-info-block {
-  padding-left: 20px;
-  flex: 1 1 0;
+   padding-left: 20px;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 1 0px;
+   flex: 1 1 0;
 }
 
 .name-service,
 .name_specialist {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
 }
 
 .subtitle-service,
 .sb-category {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 13.5px;
-  color: #71757F;
-  padding-top: 2px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 13.5px;
+   color: #71757f;
+   padding-top: 2px;
 }
 
 /* Маникюр */
 .service-info {
-  flex: 1 0;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 0;
+   flex: 1 0;
 }
 
 .name__service {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
 }
 
 .price,
 .total-price {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-  color: #40382E;
-  padding-top: 8px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 18px;
+   color: #40382e;
+   padding-top: 8px;
 }
 
 input[type="checkbox"] {
-  display: none;
+   display: none;
 }
 
 .cb-service {
-  margin-top: 15px;
-  width: 24px;
-  height: 24px;
-  border: 1px solid #E0E3EB;
-  cursor: pointer;
-  border-radius: 6px;
-  background-color: #ffffff;
-
+   margin-top: 15px;
+   width: 24px;
+   height: 24px;
+   border: 1px solid #e0e3eb;
+   cursor: pointer;
+   border-radius: 6px;
+   background-color: #ffffff;
 }
 
 .cb-service:hover {
-  background-color: #F5F5F5
+   background-color: #f5f5f5;
 }
 
 .cb-service.checked {
-  background-color: #000000;
+   background-color: #000000;
 }
 
 .cb-service::after {
-  content: '\2714';
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  display: none;
+   content: "\2714";
+   color: #ffffff;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   display: none;
 }
 
 .cb-service.checked::after {
-  display: block;
+   display: block;
 }
 
 /* ИТОГОВЫЙ РЕЗУЛЬТАТ ВЫБРАННЫХ ДАННЫХ */
 .summary-form {
-  width: 455px;
-  margin-left: 10px;
+   width: 455px;
+   margin-left: 10px;
 }
 
 .form-contacts-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 5px;
-  color: #40382E;
-  padding-top: 20px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 24px;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 5px;
+   color: #40382e;
+   padding-top: 20px;
 }
 
 .selected-service-form h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  color: #40382E;
-  text-align: left;
-  padding: 20px 0px 5px 0px;
-  margin: 0;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 20px;
+   color: #40382e;
+   text-align: left;
+   padding: 20px 0px 5px 0px;
+   margin: 0;
 }
 
 .data_contacts_container {
-  width: 500px;
-  height: 550px;
-  overflow-y: auto;
+   width: 500px;
+   height: 550px;
+   overflow-y: auto;
 }
 
 .data_contacts_container::-webkit-scrollbar {
-  width: 20px;
+   width: 20px;
 }
 
 .data_contacts_container::-webkit-scrollbar-thumb {
-  background: #F4F0EF;
-  border-radius: 20px;
-  border-left: 6px solid #ffffff;
-  border-right: 6px solid #ffffff;
-  border-top: 6px solid #ffffff;
-  border-bottom: 6px solid #ffffff;
+   background: #f4f0ef;
+   border-radius: 20px;
+   border-left: 6px solid #ffffff;
+   border-right: 6px solid #ffffff;
+   border-top: 6px solid #ffffff;
+   border-bottom: 6px solid #ffffff;
 }
 
 .data_contacts_container::-webkit-scrollbar-track {
-  background-color: #ffffff;
-  border-radius: 20px;
+   background-color: #ffffff;
+   border-radius: 20px;
 }
 
 .specialist-select,
 .datetime-select,
 .selected-service-block,
 .total-block {
-  margin-bottom: 10px;
-  width: 450px;
-  text-align: left;
-  display: inline-flex;
-  padding: 10px 0px 5px 0px;
+   margin-bottom: 10px;
+   width: 450px;
+   text-align: left;
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   padding: 10px 0px 5px 0px;
 }
 
 .horizontal-line {
-  width: 100%;
-  position: relative;
-  display: block;
-  background: #f2f5ff;
+   width: 100%;
+   position: relative;
+   display: block;
+   background: #f2f5ff;
 }
 
 .selected-service-form .horizontal-line::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  background-color: #EAEEF4;
-  z-index: 1;
+   content: "";
+   display: block;
+   height: 1px;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   background-color: #eaeef4;
+   z-index: 1;
 }
 
 .tb-container .horizontal-line::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  position: absolute;
-  bottom: -5px;
-  background-color: #EAEEF4;
-  z-index: 1;
+   content: "";
+   display: block;
+   height: 1px;
+   width: 100%;
+   position: absolute;
+   bottom: -5px;
+   background-color: #eaeef4;
+   z-index: 1;
 }
 
-
 .horizontal-line::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  position: absolute;
-  bottom: -80px;
-  background-color: #EAEEF4;
-  z-index: 1;
+   content: "";
+   display: block;
+   height: 1px;
+   width: 100%;
+   position: absolute;
+   bottom: -80px;
+   background-color: #eaeef4;
+   z-index: 1;
 }
 
 .specialist-select img,
 .datetime-select img {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
-  float: left;
-  border-radius: 50%;
+   width: 48px;
+   height: 48px;
+   -o-object-fit: cover;
+   object-fit: cover;
+   float: left;
+   border-radius: 50%;
 }
 
 .sp-info-block,
 .datetime-info-block {
-  padding-left: 20px;
-  flex: 1 1 0;
+   padding-left: 20px;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 1 0px;
+   flex: 1 1 0;
 }
 
 .service-info-block {
-  flex: 1 0;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 0;
+   flex: 1 0;
 }
 
 .total-price-title {
-  flex: 1 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
-  padding-top: 10px;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 0;
+   flex: 1 0;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
+   padding-top: 10px;
 }
 
 .name_specialist,
 .name_service_title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
-  padding-top: 2px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
+   padding-top: 2px;
 }
 
 .date-info {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-  color: #71757F;
-  padding-top: 2px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 14px;
+   color: #71757f;
+   padding-top: 2px;
 }
 
 .time-info {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
-  padding-top: 2px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
+   padding-top: 2px;
 }
 
 .sp_category,
 .name_service_subtitle {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-  color: #71757F;
-  padding-top: 2px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 14px;
+   color: #71757f;
+   padding-top: 2px;
 }
 
 .name_service_price {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
-  padding-top: 8px;
-  text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
+   padding-top: 8px;
+   text-align: center;
 }
 
 /* ФОРМА ЗАПИСИ КОНТАКТНЫХ ДАННЫХ */
 .data-contacts-form {
-  margin-left: 10px;
+   margin-left: 10px;
 }
 
 .data-contacts-form input,
 .data-contacts-form label,
 .data-contacts-form textarea {
-  margin-bottom:2px;
+   margin-bottom: 2px;
 }
 
 .data-contacts-form input,
 .data-contacts-form textarea {
-  width:430px;
-  border: 1px solid #E0E3EB;
-  border-radius: 16px;
-  margin-bottom:15px;
-  padding:15px;
-  transition: border-color 0.3s ease;
+   width: 430px;
+   border: 1px solid #e0e3eb;
+   border-radius: 16px;
+   margin-bottom: 15px;
+   padding: 15px;
+   -webkit-transition: border-color 0.3s ease;
+   -o-transition: border-color 0.3s ease;
+   transition: border-color 0.3s ease;
 }
 
 .data-contacts-form input:hover,
 .data-contacts-form textarea:hover {
-  border: 1px solid #9AA3B1;
+   border: 1px solid #9aa3b1;
 }
 
 .data-contacts-form input:focus,
 .data-contacts-form textarea:focus {
-  border: 1px solid #000000;
+   border: 1px solid #000000;
 }
 
-.data-contacts-form input{
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  display:block;
+.data-contacts-form input {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   display: block;
 }
 
 .data-contacts-form textarea {
-  height:120px;
-  resize: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  display:block;
+   height: 120px;
+   resize: none;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   display: block;
 }
 
 .data-contacts-form label {
-  text-align: left;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  display:block;
-  color: #71757F;
+   text-align: left;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 12px;
+   display: block;
+   color: #71757f;
 }
 
 .data-contacts-form .required {
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-size: 12px;
+   font-weight: bold;
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-size: 12px;
 }
 
 .overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* ФОРМА УВЕДОМЛЕНИЯ О ЗАПИСИ */
 .end_form {
-  position: fixed;
-  z-index: 1500;
-  background: #ffffff;
-  border-radius: 12px; 
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
-  text-align: center; 
-  width: 550px;
-  height: 420px;
-  transform: scale(0.8); 
-  animation: fadeInUp 0.5s ease-out forwards;
+   position: fixed;
+   z-index: 1500;
+   background: #ffffff;
+   border-radius: 12px;
+   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   text-align: center;
+   width: 550px;
+   height: 420px;
+   -webkit-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+   -webkit-animation: fadeInUp 0.5s ease-out forwards;
+   animation: fadeInUp 0.5s ease-out forwards;
 }
 
 .container_entry_form {
-  justify-content: center;
-  align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
 }
 
 .container_entry_form img {
-  width: 130px;
-  padding-top: 50px;
-  padding-left: 10px;
+   width: 130px;
+   padding-top: 50px;
+   padding-left: 10px;
 }
 
 .application_text {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  color: #40382E;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding-top: 20px;
+   color: #40382e;
 }
 
 .btn-home {
-  text-align: center;
-  width: 250px;
-  color: #ffffff;
-  border-radius: 12px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  background: #000000;
-  padding: 15px;
-  cursor: pointer;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-top: 30px;
+   text-align: center;
+   width: 250px;
+   color: #ffffff;
+   border-radius: 12px;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   background: #000000;
+   padding: 15px;
+   cursor: pointer;
+   border: none;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   text-decoration: none;
+   -webkit-transition: background-color 0.3s ease;
+   -o-transition: background-color 0.3s ease;
+   transition: background-color 0.3s ease;
+   margin-top: 30px;
 }
 
 .btn-home:hover {
-  opacity: 0.9;
+   opacity: 0.9;
 }
 
 /* ЗАГОЛОВОК ДЛЯ КАРТОЧЕК */
 .card-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
-  padding-left: 13px;
-  position: relative;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 24px;
+   padding-left: 13px;
+   position: relative;
+   color: #40382e;
 }
 
 .card-title::before {
-  content: " ";
-  background: #DBCEC8;
-  width: 75px;
-  height: 3px;
-  bottom: -8px;
-  position: absolute;
+   content: " ";
+   background: #dbcec8;
+   width: 75px;
+   height: 3px;
+   bottom: -8px;
+   position: absolute;
 }
-
 
 /* КАРТОЧКА ОПИСАНИЯ */
 .cards-container-description {
-  width: 910px;
-  gap: 20px;
-  background-color: #ffffff;
-  height: 505px;
-  overflow: hidden;
-  border-radius: 25px;
-  padding: 15px;
-  position: relative;
+   width: 910px;
+   gap: 20px;
+   background-color: #ffffff;
+   height: 505px;
+   overflow: hidden;
+   border-radius: 25px;
+   padding: 15px;
+   position: relative;
 }
 
 .card-description {
-  display: flex;
-  padding-top: 10px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   padding-top: 10px;
 }
 
 .text-description {
-  width: 450px;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 40px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-  color: #40382E;
+   width: 450px;
+   padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 40px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 14px;
+   color: #40382e;
 }
 
 .slideshow-container {
-  position: relative;
-  padding-left: 20px;
-  align-items: center;
+   position: relative;
+   padding-left: 20px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
 }
 
 .slide-img {
-  width: 360px;
-  background-color: #ffffff;
-  overflow: hidden;
-  border-radius: 25px;
-  height: 410px;
+   width: 360px;
+   background-color: #ffffff;
+   overflow: hidden;
+   border-radius: 25px;
+   height: 410px;
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-  }
-  @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-  }
-  @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-  }
-  /* Для маленьких экранов увеличьте размер текста  */
-  @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-  }
-
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+   from {
+      opacity: 0.4;
+   }
+   to {
+      opacity: 1;
+   }
+}
+@keyframes fade {
+   from {
+      opacity: 0.4;
+   }
+   to {
+      opacity: 1;
+   }
+}
+/* Для маленьких экранов увеличьте размер текста  */
+@media only screen and (max-width: 300px) {
+   .prev,
+   .next,
+   .text {
+      font-size: 11px;
+   }
+}
 
 /* КАРТОЧКА УСЛУГ */
 
 .cards-container-services {
-  width: 910px;
-  gap: 20px;
-  background-color: #ffffff;
-  height: 560px;
-  overflow: hidden;
-  border-radius: 25px;
-  padding: 15px;
-  position: relative;
+   width: 910px;
+   gap: 20px;
+   background-color: #ffffff;
+   height: 560px;
+   overflow: hidden;
+   border-radius: 25px;
+   padding: 15px;
+   position: relative;
 }
 
 .list-services {
-  position: relative;
-  display: flex;
-  padding-top: 15px;
+   position: relative;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   padding-top: 15px;
 }
 
 .card-service {
-  display: flex;
-  flex-direction: column;
-  width: 160px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
-  border-radius: 12px;
-  padding-left: 25px;
-  padding-right: 25px;
-  align-items: center;
-  margin-right: 7px;
-  margin-left: 10px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   width: 160px;
+   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+   border-radius: 12px;
+   padding-left: 25px;
+   padding-right: 25px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   margin-right: 7px;
+   margin-left: 10px;
 }
 
 .details {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
 .details img {
-  width: 210px;
-  height: 150px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+   width: 210px;
+   height: 150px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
 }
 
 .ul-service-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  padding-top: 20px;
-  font-size: 20px;
-  text-align: center;
-  height: 40px;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   padding-top: 20px;
+   font-size: 20px;
+   text-align: center;
+   height: 40px;
+   color: #40382e;
 }
 
 .ul-service-description {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #847C79;
-  padding: 20px;
-  font-size: 15px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   color: #847c79;
+   padding: 20px;
+   font-size: 15px;
 }
-
 
 /* КАРТОЧКА СПЕЦИАЛИСТОВ */
 
 .cards-container-specialists {
-  width: 910px;
-  gap: 20px;
-  background-color: #ffffff;
-  height: 465px;
-  overflow: hidden;
-  border-radius: 25px;
-  padding: 15px;
-  position: relative;
+   width: 910px;
+   gap: 20px;
+   background-color: #ffffff;
+   height: 465px;
+   overflow: hidden;
+   border-radius: 25px;
+   padding: 15px;
+   position: relative;
 }
 
 .list-specialists {
-  position: relative;
-  display: flex;
-  margin-right: 10px;
-  padding-top: 10px;
+   position: relative;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   margin-right: 10px;
+   padding-top: 10px;
 }
 
 .card-specialist {
-  display: flex;
-  flex-direction: column;
-  width: 178px;
-  border: 1px solid #E1EAF5;
-  border-radius: 12px;
-  padding-left: 25px;
-  padding-right: 25px;
-  align-items: center;
-  margin-right: 7px;
-  margin-left: 10px;
-  padding: 15px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   width: 178px;
+   border: 1px solid #e1eaf5;
+   border-radius: 12px;
+   padding-left: 25px;
+   padding-right: 25px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   margin-right: 7px;
+   margin-left: 10px;
+   padding: 15px;
 }
 
 .specialist-info {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   gap: 4px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: start;
+   -ms-flex-pack: start;
+   justify-content: flex-start;
+   text-align: center;
 }
 
 .specialist-info img {
-  width: 180px;
-  height: 270px;
-  border-radius: 7px;
-  margin-bottom: 15px;
-  object-fit: cover;
+   width: 180px;
+   height: 270px;
+   border-radius: 7px;
+   margin-bottom: 15px;
+   -o-object-fit: cover;
+   object-fit: cover;
 }
 
 .name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 16px;
-  color: #40382E;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 16px;
+   color: #40382e;
 }
 
 .sp-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
-  color: #8A99A0;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 16px;
+   color: #8a99a0;
 }
-
 
 /* КАРТОЧКА КОНТАКТОВ */
 
 .cards-container-contacts {
-  width: 910px;
-  height: 330px;
-  gap: 20px;
-  overflow: hidden;
-  padding: 15px;
-  margin-top: 75px;
+   width: 910px;
+   height: 330px;
+   gap: 20px;
+   overflow: hidden;
+   padding: 15px;
+   margin-top: 75px;
 }
 
 .card-contacts {
-  display: flex;
-  justify-content: space-between;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
 }
 
 .contacts-info {
-  width: 400px;
-  padding-right: 40px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-  color: #40382E;
+   width: 400px;
+   padding-right: 40px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 14px;
+   color: #40382e;
 }
 
 .title-contacts h2 {
-  color: #40382E;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 24px;
+   color: #40382e;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 24px;
 }
 
 .contacts-list {
-  width: 350px;
-  padding-bottom: 20px;
+   width: 350px;
+   padding-bottom: 20px;
 }
 
 .contacts-list img {
-  position: absolute;
-  overflow: hidden;
+   position: absolute;
+   overflow: hidden;
 }
 
 .text-block {
-  padding-top: 5px;
+   padding-top: 5px;
 }
 
 .contacts-list span {
-  position: relative;
-  text-align: left;
-  padding-left: 45px;
+   position: relative;
+   text-align: left;
+   padding-left: 45px;
 }
 
 .place-on-the-map {
-  position: absolute;
-  align-items: center;
-  width: 500px;
-  bottom: 50px;
-  right: 20px;
+   position: absolute;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   width: 500px;
+   bottom: 50px;
+   right: 20px;
 }
