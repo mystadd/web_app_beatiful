@@ -20,7 +20,7 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
                     }
                   
                     if (message) {
-                      FullMessage += `<br><b>Комментарий:</b> ${message}`;
+                      FullMessage += `<b>Комментарий:</b> ${message}`;
                     }
 
   fetch('https://api.telegram.org/bot' + botToken + '/sendMessage?chat_id=' + chatId + '&text=' + encodeURIComponent(FullMessage) + '&parse_mode=HTML')
@@ -152,7 +152,7 @@ $(document).ready(function() {
     $('.end_form').show();
     $('#popupOverlay').css({"display": "none"});
     $('.btn-home').click(function() {
-      window.location.href = "index.html"; // Замените 'главная страница URL' на фактический URL вашей главной страницы
+      window.location.href = "index.html";
     });
   });
 
