@@ -1,6 +1,6 @@
 function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateTime) {
   var botToken = '7051305718:AAFslNMtJbMcjeuoEE2op9zwbjvXoHPeUfQ';
-  var chatId = '4268967205';
+  var chatId = '-4268967205';
 
   var name = $('#first_name').val();
   var telephone = $('#telephone').val();
