@@ -137,6 +137,7 @@ $(document).ready(function() {
 
     if (!isValid) {
         alert('Пожалуйста, заполните все обязательные поля.');
+        console.log('Alert отображен'); // Добавляем для проверки
         return;
     }
 
