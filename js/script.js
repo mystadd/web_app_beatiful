@@ -149,7 +149,8 @@ $(document).ready(function() {
 
     sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(', ').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
     
- 
+    $('.end_form').show();
+    $('#popupOverlay').css({"display": "none"});
     $('.btn-home').click(function() {
       window.location.href = "index.html";
     });
