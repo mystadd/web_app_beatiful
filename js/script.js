@@ -137,7 +137,6 @@ $(document).ready(function() {
 
     if (!isValid) {
         alert('Пожалуйста, заполните все обязательные поля.');
-        console.log('Alert отображен'); // Добавляем для проверки
         return;
     }
 
@@ -150,8 +149,7 @@ $(document).ready(function() {
 
     sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(', ').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
     
-    $('.end_form').show();
-    $('#popupOverlay').css({"display": "none"});
+ 
     $('.btn-home').click(function() {
       window.location.href = "index.html";
     });
