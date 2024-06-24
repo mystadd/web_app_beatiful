@@ -15,11 +15,8 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
   FullMessage += `<b>Имя:</b> ${name}\n`;
   FullMessage += `<b>Телефон:</b> ${telephone}\n`;
 
-  if (email) {
+  if (email || message) {
     FullMessage += `<b>E-mail:</b> ${email}\n`;
-  }
-                  
-  if (message) {
     FullMessage += `<b>Комментарий:</b> ${message}`;
   }
 
