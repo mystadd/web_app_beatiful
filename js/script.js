@@ -10,7 +10,7 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
   // Форматирование выбранных услуг
   var formattedServices = selectedServices.map(service => {
     // Удаление пробелов в начале и конце, замена множества пробелов на один, удаление спец. символов
-    return service.trim().replace(/\s+/g, ' ').replace(/…/g, '');
+    return service.trim().replace(/\s+/g, ' ').replace(/…/g, '').replace(/ч/g, ' ч ');
   }).join(', ');
 
   var FullMessage = `<b>Новая запись на прием!</b>\n`;
