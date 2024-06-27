@@ -7,6 +7,12 @@ function sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateT
   var email = $('#email').val();
   var message = $('#message').val();
 
+  // Форматирование выбранных услуг
+  var formattedServices = selectedServices.map(service => {
+    // Удаление пробелов в начале и конце, замена множества пробелов на один, удаление спец. символов
+    return service.trim().replace(/\s+/g, ' ').replace(/…/g, '');
+  }).join(', ');
+
   var FullMessage = `<b>Новая запись на прием!</b>\n`;
   FullMessage += `<b>Выбранный специалист:</b> ${$.trim(selectedSpecialist)}\n`;
   FullMessage += `<b>Выбранные услуги:</b> ${$.trim(selectedServices)}\n`;
@@ -147,7 +153,7 @@ $(document).ready(function() {
     });
     var selectedDateTime = selectedDate + ' ' + selectedTime;
 
-    sendTelegramMessage(selectedSpecialist, selectedServices.map((item)=>item.replace(/[\n\r]/g, '')).join(', ').replace(/  /g, '').replace(/…/g, ''), selectedDateTime);
+    sendTelegramMessage(selectedSpecialist, selectedServices, selectedDateTime);
     
     $('.end_form').show();
     $('#popupOverlay').css({"display": "none"});
